@@ -1,0 +1,99 @@
+body {
+   background: url("../images/car_back.jpg") top/cover;
+    
+    color: white;
+}
+
+#logoAiSim {
+    margin-top: -2rem;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    background: linear-gradient(#28a8afBB, #323232BB );
+    position: absolute;
+    width: 1200px;
+    border-radius: 50px;
+
+    margin-top: 4em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#produtosAiSim {
+    float: left;
+    width: 30%;
+    margin: 2em;   
+}
+
+.textProduct {
+    font-size: 22px;
+    padding: 5em 3em 5em 3em;
+    text-align: justify;
+
+    line-height: 2.5rem;
+    letter-spacing: 1.6px;
+}
+
+.formContainer{
+    margin: 2rem;
+    line-height: 1.5rem;
+    max-width: 230px;
+    background-color: #ffffffa6;
+    padding: 20px;
+    float: right;
+
+    border-radius: 2em;
+}
+
+
+.textForm{
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: black;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;    
+    transition: background-color 0.5s;
+}
+
+#submit:hover {
+    background-color: #00a1f2;
+    cursor: pointer;
+}
+
+footer{
+    clear:left;
+    margin: 0 0 3rem 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.icone {
+    width: 2rem;
+    margin-right: 10px;
+    transform: translateY(25%);
+}
+
+.itemList {
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+}
