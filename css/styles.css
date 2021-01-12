@@ -1,7 +1,15 @@
+body,
+html {
+    min-height: 100%;
+
+}
+
 body {
-   background: url("../images/car_back.jpg") top/cover;
-    
-    color: white;
+   background-image: url("../images/car_back.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;    
+
+   color: white;
 }
 
 #logoAiSim {
@@ -38,10 +46,10 @@ body {
     letter-spacing: 1.6px;
 }
 
-.formContainer{
+.revendedor{
     margin: 2rem;
     line-height: 1.5rem;
-    max-width: 230px;
+    max-width: 16.0rem;
     background-color: #ffffffa6;
     padding: 20px;
     float: right;
@@ -49,40 +57,49 @@ body {
     border-radius: 2em;
 }
 
-
-.textForm{
+.revendedor h2{
     margin-bottom: 25px;
     font-size: 16px;
     color: black;
 }
 
-input, select{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border: none;
-    margin-bottom: 10px;
-    border-radius: 8px;
-}
 
-input[type="submit"]{
+.revendedor .button {
+    width: 14rem;
+    height: 3rem;
+    background: #00DAA1;
     color: white;
-    background-color: #48c5ce;
-    font-weight: bold;    
-    transition: background-color 0.5s;
-}
-
-#submit:hover {
-    background-color: #00a1f2;
+    border: 0;
+    border-radius: 0.8rem;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+    margin-left: 1rem;    
 }
 
+.revendedor .button:hover {
+    background: #11D201;
+}
+
+.iconWhats {
+    width: 2rem; 
+}
+
+
+
+/* Contato */
 footer{
     clear:left;
     margin: 0 0 3rem 2rem;
 }
 
-a{
+footer a{
     color: white;
     text-decoration: none;
 }
