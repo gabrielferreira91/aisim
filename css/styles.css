@@ -67,7 +67,7 @@ body {
 .revendedor .button {
     width: 14rem;
     height: 3rem;
-    background: #00DAA1;
+    background: #61Cb11;
     color: white;
     border: 0;
     border-radius: 0.8rem;
@@ -79,12 +79,13 @@ body {
 
     text-decoration: none;
 
-    transition: background 0.2s;
+    transition: 0.2s;
     margin-left: 1rem;    
 }
 
 .revendedor .button:hover {
-    background: #11D201;
+    background: #00A200;
+    transform: translateY(-6%);
 }
 
 .iconWhats {
