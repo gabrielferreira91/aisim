@@ -161,4 +161,17 @@ footer a{
     
         line-height: 1.5rem;
     }
+
+    .revendedor{
+        margin: 2em 0 2em 0;
+        position: relative;
+        clear:both;
+        display: block;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    footer{
+        clear: both;
+    }
 }
